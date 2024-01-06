@@ -9,35 +9,68 @@ This is a summary of my Holiday Hack 2023 findings. Not all objectives were comp
 ## Answers
 
 !!! success "1. Holiday Hack Orientation - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
-    Insert [your answer](./objectives/o1.md) here.
+    [see answer](./objectives/o1.md) here.
 
 !!! success "2. Snowball Fight - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
-    Insert [your answer](./objectives/o2.md) here.
+    [see answer](./objectives/o2.md) here.
 
-!!! success "3. Linux 101- :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star:"
-    Insert [your answer](./objectives/o3.md) here.
+!!! success "3. Linux 101- :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o3.md) here.
 
-!!! success "4. Reportinator - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star:"
-    Insert [your answer](./objectives/o4.md) here.
+!!! success "4. Reportinator - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o4.md) here.
 
-!!! success "5. Azure 101 - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:"
-    Insert [your answer](./objectives/o5.md) here.
+!!! success "5. Azure 101 - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o5.md) here.
     
-!!! success "6. Luggage Lock - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:"
-    Insert [your answer](./objectives/o6.md) here.
+!!! success "6. Luggage Lock - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o6.md) here.
     
-!!! success "7. Linux PrivEsc - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:"
-    Insert [your answer](./objectives/o7.md) here.
+!!! success "7. Linux PrivEsc - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o7.md) here.
     
-!!! success "8. Faster Lock Combination - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:"
-    Insert [your answer](./objectives/o8.md) here.
+!!! success "8. Faster Lock Combination - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o8.md) here.
     
-!!! success "9. Gameboy 1 - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:"
-    Insert [your answer](./objectives/o9.md) here.
+!!! success "9. Gameboy 1 - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o9.md) here.
     
-!!! success "10. Gameboy 2 - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:"
-    Insert [your answer](./objectives/o10.md) here.
+!!! success "10. Gameboy 2 - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o10.md) here.
+    
+!!! success "11. Gameboy 3 - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o11.md) here.
 
+!!! success "12. Na'an - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o12.md) here.
+    
+!!! success "13. KQL Kraken Hunt - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o13.md) here.
+    
+!!! success "14. Phish Detection - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o14.md) here.
+
+!!! success "15. Hashcat - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o15.md) here.   
+
+!!! success "16. Elf Hunt - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o16.md) here.  
+    
+!!! success "17. Certificate SSHenanigans - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:"
+    [see answer](./objectives/o17.md) here.  
+    
+!!! success "18. The Captain's Comms - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star:"
+    [see answer](./objectives/o18.md) here.  
+    
+!!! success "19. Space Island Door Access Speaker - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o19.md) here.  
+    
+!!! success "20. BONUS! Fishing Guide - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+    [see answer](./objectives/o20.md) here.   
+    
+!!! success "21. BONUS! Fishing Mastery - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star:"
+    [see answer](./objectives/o21.md) here. 
+    
 ## Conclusion
 
 !!! Abstract "Narrative"<br><br>
