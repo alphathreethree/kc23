@@ -900,15 +900,6 @@
 <p>This was a really interesting challenge. I believe there are two ways to solve this. An easy way, and a hard way. The hard way is the path I took at first and never got to completion. The Linux kernel that is being used in this challenge is succeptiple to what is known as the "DirtyPipe" vulnerability. That is a specific bug that allows writing to memory pages and forcing the OS to write those changes to disk. I was not able to get this to work, but I believe it is an option in this challenge.<br><br>
 I opted for the very simple solution of finding all executables that had the SUID bit set in the file permissions. If this bit is set, and you have permission to execute that file you will essentially be executing that file as the root user.<br><br>
 There is a file copy utility "simplecopy" that can be used to edit the /etc/passwd file to add a new user with root permissions.</p>
-<h3 id="admonitions">Admonitions<a class="headerlink" href="#admonitions" title="Permanent link">⚓︎</a></h3>
-<div class="admonition warning">
-<p class="admonition-title">Anchor the decorations</p>
-<p>Ensure that all festive decorations, especially electrical ones, are securely anchored. We don’t want them floating off into the tropical sunset!</p>
-</div>
-<div class="admonition info">
-<p class="admonition-title">Palm tree lighting</p>
-<p>While on the island, make sure to hang your Christmas lights on a palm tree. It’s not only festive but also a great beacon for Santa to find you!</p>
-</div>
 <h3 id="code-blocks">Code blocks<a class="headerlink" href="#code-blocks" title="Permanent link">⚓︎</a></h3>
 <p><div class="highlight"><pre><span></span><code>find / -perm -u=s -type f 2&gt;/dev/null 
 

