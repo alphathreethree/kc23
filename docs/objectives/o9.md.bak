@@ -26,37 +26,27 @@ Moving the blocks into their correct locations will reveal the QR code that open
 
 ### Images
 
-    Order of block movements
-    
-![First block to move](../img/objectives/o9/1.png)
+Order of block movements
 
-    Move this block from the far left side
-    
-![Far left block](../img/objectives/2-1.png)
+![Far left block](../img/objectives/o9/block1.png)
+![Far left block moved to far right side](../img/objectives/o9/block1destination.png)
 
-    To the far right side 
-    
-![Move block to the far right side](../img/objectives/o9/2-2.png)
+![Next block to move](../img/objectives/o9/block6.png)
+![Moved](../img/objectives/o9/movedblock6.png)
 
-    Next block to move 
-    
-![Next block to move](../img/objectives/o9/3.png)
+![Next block to move](../img/objectives/o9/block2.png)
+![Moved](../img/objectives/o9/movedblock2.png)
 
-    Next block to move 
+![Next block to move](../img/objectives/o9/block5.png)
+![Moved](../img/objectives/o9/movedblock5.png)
 
-![Next block to move](../img/objectives/o9/4.png)
+![Next block to move](../img/objectives/o9/block3.png)
+![Moved](../img/objectives/o9/movedblock3.png)
 
-    Next block to move 
+![Next block to move](../img/objectives/o9/block4.png)
+![Moved](../img/objectives/o9/movedblock4.png)
 
-![Next block to move](../img/objectives/o9/5.png)
-
-    Next block to move 
-
-![Next block to move](../img/objectives/o9/6.png)
-
-    Last block to move 
-
-![Last block to move](../img/objectives/o9/7.png)
+![Last block to move](../img/objectives/o9/block7.png)
 
 ![QR code](../img/objectives/o9/solution.png)
 
