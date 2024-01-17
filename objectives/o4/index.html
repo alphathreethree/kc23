@@ -440,6 +440,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -894,52 +903,63 @@
 Success from Python script<br><br>
 <img alt="images" src="../../img/objectives/o4/found_combination_python.png" /><br><br></p>
 <h3 id="code-blocks">Code blocks<a class="headerlink" href="#code-blocks" title="Permanent link">⚓︎</a></h3>
-<p>```import requests
+<div class="highlight"><pre><span></span><code>import requests
 import logging
 import time
-import re</p>
-<h1 id="uncomment-for-logging-of-http-traffic">uncomment for logging of http traffic<a class="headerlink" href="#uncomment-for-logging-of-http-traffic" title="Permanent link">⚓︎</a></h1>
-<h1 id="_1"><a class="headerlink" href="#_1" title="Permanent link">⚓︎</a></h1>
-<h1 id="try">try:<a class="headerlink" href="#try" title="Permanent link">⚓︎</a></h1>
-<h1 id="from-httpclient-import-httpconnection">from http.client import HTTPConnection<a class="headerlink" href="#from-httpclient-import-httpconnection" title="Permanent link">⚓︎</a></h1>
-<h1 id="except-importerror">except ImportError:<a class="headerlink" href="#except-importerror" title="Permanent link">⚓︎</a></h1>
-<h1 id="from-httplib-import-httpconnection">from httplib import HTTPConnection<a class="headerlink" href="#from-httplib-import-httpconnection" title="Permanent link">⚓︎</a></h1>
-<h1 id="httpconnectiondebuglevel-1">HTTPConnection.debuglevel = 1<a class="headerlink" href="#httpconnectiondebuglevel-1" title="Permanent link">⚓︎</a></h1>
-<h1 id="loggingbasicconfig">logging.basicConfig()<a class="headerlink" href="#loggingbasicconfig" title="Permanent link">⚓︎</a></h1>
-<h1 id="logginggetloggersetlevelloggingdebug">logging.getLogger().setLevel(logging.DEBUG)<a class="headerlink" href="#logginggetloggersetlevelloggingdebug" title="Permanent link">⚓︎</a></h1>
-<h1 id="requests_log-logginggetloggerurllib3">requests_log = logging.getLogger("urllib3")<a class="headerlink" href="#requests_log-logginggetloggerurllib3" title="Permanent link">⚓︎</a></h1>
-<h1 id="requests_logsetlevelloggingdebug">requests_log.setLevel(logging.DEBUG)<a class="headerlink" href="#requests_logsetlevelloggingdebug" title="Permanent link">⚓︎</a></h1>
-<h1 id="requests_logpropagate-true">requests_log.propagate = True<a class="headerlink" href="#requests_logpropagate-true" title="Permanent link">⚓︎</a></h1>
-<h1 id="fake-that-you-are-using-a-brower">fake that you are using a brower<a class="headerlink" href="#fake-that-you-are-using-a-brower" title="Permanent link">⚓︎</a></h1>
-<p>useragent = 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0'</p>
-<h1 id="main-site-url">main site url<a class="headerlink" href="#main-site-url" title="Permanent link">⚓︎</a></h1>
-<p>url = 'https://hhc23-reportinator-dot-holidayhack2023.ue.r.appspot.com'</p>
-<h1 id="address-for-checking-your-answer">address for checking your answer<a class="headerlink" href="#address-for-checking-your-answer" title="Permanent link">⚓︎</a></h1>
-<p>checkurl = 'https://hhc23-reportinator-dot-holidayhack2023.ue.r.appspot.com/check'</p>
-<h1 id="cookie-name-returned-from-the-server">cookie name returned from the server<a class="headerlink" href="#cookie-name-returned-from-the-server" title="Permanent link">⚓︎</a></h1>
-<p>cookiename = 'ReportinatorCookieYum'</p>
-<h1 id="custom-header-settings-for-the-post-command">custom header settings for the POST command<a class="headerlink" href="#custom-header-settings-for-the-post-command" title="Permanent link">⚓︎</a></h1>
-<p>cheaders = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0','Origin':'https://hhc23-reportinator-dot-holidayhack2023.ue.r.appspot.com', 'Alt-Used': 'https://hhc23-reportinator-dot-holidayhack2023.ue.r.appspot.com', 'TE': 'trailers', 'Sec-Fetch-Dest':'empty', 'Sec-Fetch-Mode':'cors', 'Sec-Fetch-Site': 'same-origin'} </p>
-<h1 id="answers-to-provide-to-the-server">answers to provide to the server<a class="headerlink" href="#answers-to-provide-to-the-server" title="Permanent link">⚓︎</a></h1>
-<p>payload = {'input-1':'0','input-2':'0','input-3':'0','input-4':'0','input-5':'0','input-6':'0','input-7':'0','input-8':'0','input-9':'0'}</p>
-<p>x = requests.get(url) # contact the server and get the session cookie
+import re
+
+# uncomment for logging of http traffic
+#
+#try:
+#    from http.client import HTTPConnection
+#except ImportError:
+#    from httplib import HTTPConnection
+#HTTPConnection.debuglevel = 1
+
+#logging.basicConfig()
+#logging.getLogger().setLevel(logging.DEBUG)
+#requests_log = logging.getLogger(&quot;urllib3&quot;)
+#requests_log.setLevel(logging.DEBUG)
+#requests_log.propagate = True
+
+# fake that you are using a brower
+useragent = &#39;Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0&#39;
+
+# main site url
+url = &#39;https://hhc23-reportinator-dot-holidayhack2023.ue.r.appspot.com&#39;
+
+# address for checking your answer
+checkurl = &#39;https://hhc23-reportinator-dot-holidayhack2023.ue.r.appspot.com/check&#39;
+
+# cookie name returned from the server
+cookiename = &#39;ReportinatorCookieYum&#39;
+
+# custom header settings for the POST command
+cheaders = {&#39;User-Agent&#39;: &#39;Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0&#39;,&#39;Origin&#39;:&#39;https://hhc23-reportinator-dot-holidayhack2023.ue.r.appspot.com&#39;, &#39;Alt-Used&#39;: &#39;https://hhc23-reportinator-dot-holidayhack2023.ue.r.appspot.com&#39;, &#39;TE&#39;: &#39;trailers&#39;, &#39;Sec-Fetch-Dest&#39;:&#39;empty&#39;, &#39;Sec-Fetch-Mode&#39;:&#39;cors&#39;, &#39;Sec-Fetch-Site&#39;: &#39;same-origin&#39;} 
+
+# answers to provide to the server
+payload = {&#39;input-1&#39;:&#39;0&#39;,&#39;input-2&#39;:&#39;0&#39;,&#39;input-3&#39;:&#39;0&#39;,&#39;input-4&#39;:&#39;0&#39;,&#39;input-5&#39;:&#39;0&#39;,&#39;input-6&#39;:&#39;0&#39;,&#39;input-7&#39;:&#39;0&#39;,&#39;input-8&#39;:&#39;0&#39;,&#39;input-9&#39;:&#39;0&#39;}
+
+x = requests.get(url) # contact the server and get the session cookie
 y = x.cookies[cookiename]  # extract the cookie value
-cdict = dict(ReportinatorCookieYum=y)  # custom dictionary to use in the POST command</p>
-<h1 id="-loop-through-all-enumerations-of-answers">--- loop through all enumerations of answers<a class="headerlink" href="#-loop-through-all-enumerations-of-answers" title="Permanent link">⚓︎</a></h1>
-<p>for vals in range(512):
+cdict = dict(ReportinatorCookieYum=y)  # custom dictionary to use in the POST command
+
+# --- loop through all enumerations of answers
+
+for vals in range(512):
     time.sleep(0.3)
-    sp = [x for x in format(vals, '09b')]
+    sp = [x for x in format(vals, &#39;09b&#39;)]
     print(sp)
-    payload = {'input-1':sp[0],'input-2':sp[1],'input-3':sp[2],'input-4':sp[3],'input-5':sp[4],'input-6':sp[5],'input-7':sp[6],'input-8':sp[7],'input-9':sp[8]}</p>
-<div class="highlight"><pre><span></span><code>r = requests.post(checkurl, cookies=cdict, data=payload, headers=cheaders)  # send the answers
-print(r.text)  #  print the results
-if re.search(&#39;FAIL&#39;, r.text):
-    print(&#39;no win&#39;)
-else:
-    print(&#39;win&#39;)
-    break
+    payload = {&#39;input-1&#39;:sp[0],&#39;input-2&#39;:sp[1],&#39;input-3&#39;:sp[2],&#39;input-4&#39;:sp[3],&#39;input-5&#39;:sp[4],&#39;input-6&#39;:sp[5],&#39;input-7&#39;:sp[6],&#39;input-8&#39;:sp[7],&#39;input-9&#39;:sp[8]}
+
+    r = requests.post(checkurl, cookies=cdict, data=payload, headers=cheaders)  # send the answers
+    print(r.text)  #  print the results
+    if re.search(&#39;FAIL&#39;, r.text):
+        print(&#39;no win&#39;)
+    else:
+        print(&#39;win&#39;)
+        break
 </code></pre></div>
-<p>```</p>
 <h2 id="response">Response<a class="headerlink" href="#response" title="Permanent link">⚓︎</a></h2>
 <div class="admonition quote">
 <p class="admonition-title">Noel Boetie</p>
